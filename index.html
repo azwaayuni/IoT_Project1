@@ -16,8 +16,8 @@
 <div class="container">
 <button type="submit" class="btn btn-info" onclick="getblynk()">SCAN ME</button>
 <button type="submit" class="btn btn-info" onclick="getblynk1()">PAGAR</button>
-<button type="submit" class="btn btn-info" onclick="getblynk2()">PAGAR</button>
-<button type="submit" class="btn btn-info" onclick="getblynk3()">PAGAR</button>
+<button type="submit" class="btn btn-info" onclick="getblynk2()">KIPAS</button>
+<button type="submit" class="btn btn-info" onclick="getblynk3()">LAMPU</button>
 
 </div>
 
@@ -38,21 +38,6 @@
   }
 </script>
 
- <div class="kipas">
-<button type="submit" class="btn btn-info" onclick="getblynk2()">KIPAS</button>
-</div>
-
-<script>
-  function getblynk2(){
-  $.get("https://blynk.cloud/external/api/update?token=rKOgUiuZz1yriWCRxr183nzBE7W77iXB&V1=0", (data, status) => {
-    console.log(data);
-  });
-  }
-</script> 
-
-<div class="servo">
-<button type="submit" class="btn btn-info" onclick="getblynk3()">LAMPU</button>
-</div>
 
 <script>
   function getblynk3(){
